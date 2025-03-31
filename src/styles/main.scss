@@ -65,10 +65,10 @@ body {
 }
 
 .right {
-    display: flex;
-    justify-content: flex-end;
+    padding-top: 1.5rem;
+    justify-content: end;
     align-items: center;
-    width: 100%;
+    width: 15%;
     height: 100%;
 }
 
@@ -80,6 +80,17 @@ body {
 
     .header-container {
         padding-left: 26rem;
+        justify-content: space-around;
+
+        .left{
+            width: 40%;
+            margin-left: -5rem;
+        }
+        .right{
+            display: flex;
+            width: 40%;
+            justify-content: center;
+        }
 
         img {
             visibility: hidden;
@@ -101,7 +112,7 @@ body {
         justify-content: space-evenly;
         width: 100%;
         visibility: visible;
-        padding: 0 16rem 0 1rem;
+        padding-left: 2rem;
     }
 }
 
@@ -121,6 +132,13 @@ body {
         border-radius: 2px;
         box-shadow: 60px -35px 0px 10px rgba(252, 211, 151, 1);
     }
+}
+
+.right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8rem;
 }
 
 .txtArea1 {

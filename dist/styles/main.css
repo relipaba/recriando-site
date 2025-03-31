@@ -49,10 +49,10 @@ body header div img {
 }
 
 .right {
-  display: flex;
-  justify-content: flex-end;
+  padding-top: 1.5rem;
+  justify-content: end;
   align-items: center;
-  width: 100%;
+  width: 15%;
   height: 100%;
 }
 
@@ -63,6 +63,16 @@ body header div img {
 @media screen and (min-width: 840px) {
   .header-container {
     padding-left: 26rem;
+    justify-content: space-around;
+  }
+  .header-container .left {
+    width: 40%;
+    margin-left: -5rem;
+  }
+  .header-container .right {
+    display: flex;
+    width: 40%;
+    justify-content: center;
   }
   .header-container img {
     visibility: hidden;
@@ -80,7 +90,7 @@ body header div img {
     justify-content: space-evenly;
     width: 100%;
     visibility: visible;
-    padding: 0 16rem 0 1rem;
+    padding-left: 2rem;
   }
 }
 /* SECTION 1 */
@@ -96,6 +106,13 @@ body header div img {
   width: 20.5rem;
   border-radius: 2px;
   box-shadow: 60px -35px 0px 10px rgb(252, 211, 151);
+}
+
+.right1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8rem;
 }
 
 .txtArea1 {
